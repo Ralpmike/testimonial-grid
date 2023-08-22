@@ -135,6 +135,7 @@ p {
   }
   .img-quote {
     position: unset;
+    max-width: 120px;
   }
   .card-1 {
     grid-area: 1/1/1/7;
