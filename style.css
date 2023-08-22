@@ -37,7 +37,6 @@ body {
 }
 .container-wrapper {
   gap: 30px;
-  max-width: 400px;
 }
 .author {
   justify-content: space-between;
@@ -66,7 +65,7 @@ body {
   position: absolute;
   top: 20px;
   right: 36.8px;
-  width:27%;
+  width: 20%;
   aspect-ratio: 1.5/1.8;
   color: hsla(0, 0%, 81%, .7);
 }
@@ -125,10 +124,12 @@ p {
   font-size: 21.2px;
   font-weight: bolder;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 620px) {
   .container-wrapper {
+    padding: 100px 0;
+    margin: 0 auto;
     grid-gap: 30px;
-    max-width: unset;
+    max-width: 1360px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
